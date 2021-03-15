@@ -2335,9 +2335,13 @@ ol {
 .mdl-button.mdl-button--colored {
 	color: rgb(158, 158, 158);
 }
-.mdl-button.mdl-button--colored:focus:not(:active) {
-	background-color: rgba(0, 0, 0, 0.12);
+
+@media screen and (min-width: 640px) {
+	.mdl-button.mdl-button--colored:focus:not(:active) {
+		background-color: rgba(0, 0, 0, 0.12);
+	}
 }
+
 input.mdl-button[type="submit"] {
 	-webkit-appearance: none;
 }
