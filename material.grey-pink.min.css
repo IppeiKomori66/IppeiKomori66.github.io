@@ -2410,7 +2410,7 @@ input.mdl-button[type="submit"] {
 	background: rgb(255, 64, 129);
 	color: rgb(255, 255, 255);
 }
-.mdl-button--fab.mdl-button--colored:hover {
+.mdl-button--fab.mdl-button--colored/*:hover*/ {
 	background-color: rgb(255, 64, 129);
 }
 .mdl-button--fab.mdl-button--colored:focus:not(:active) {
