@@ -2317,7 +2317,7 @@ ol {
 .mdl-button::-moz-focus-inner {
 	border: 0;
 }
-@media screen and (max-width: 640px) {
+@media screen and (min-width: 640px) {
 	.mdl-button:hover {
 		background-color: rgba(158, 158, 158, 0.2);
 	}
