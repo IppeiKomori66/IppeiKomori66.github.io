@@ -2271,10 +2271,14 @@ ol {
 	background: rgb(255, 64, 129);
 	color: rgb(255, 255, 255);
 }
-.mdl-button .mdl-badge[data-badge]:after {
-	top: -10px;
-	right: -5px;
+
+@media screen and (min-width: 640px) {
+	.mdl-button .mdl-badge[data-badge]:after {
+		top: -10px;
+		right: -5px;
+	}
 }
+
 .mdl-badge.mdl-badge--no-background[data-badge]:after {
 	color: rgb(255, 64, 129);
 	background: rgba(255, 255, 255, 0.2);
